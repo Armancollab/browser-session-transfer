@@ -1,11 +1,8 @@
 # Browser Session Transfer
 
-Windows CLI for copying Chromium cookies between local browser profiles.
+Windows CLI for copying cookies from one browser to another.
 
 Supported browsers: Chrome, Edge, Brave, Opera, Vivaldi, Chromium, Arc.
-
-> Use only on browser profiles you own or are authorized to administer. Cookies
-> can grant access to signed-in accounts.
 
 ## Install
 
@@ -51,8 +48,7 @@ Chrome 127+ may store cookies with App-Bound Encryption (`v20`). For those
 cookies, this tool needs `chromelevator_x64.exe` to extract the app-bound key.
 
 `chromelevator_x64.exe` is **not bundled** here because it is a third-party
-binary from another project. Bundling it would make this repo responsible for
-that binary's license, provenance, and security updates.
+binary from another project.
 
 Get or build it from the upstream project:
 https://github.com/xaitax/Chrome-App-Bound-Encryption-Decryption
