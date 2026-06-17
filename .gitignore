@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+output/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor state
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime data and browser artifacts
+Cookies
+Cookies-*
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.bak
+*.tmp
+*.json
+!package.json
+!tsconfig.json
+
+# Local third-party helper binary.
+# Download/build it separately and point CHROMEELEVATOR_PATH or
+# --chromelevator-path at it.
+chromelevator*.exe
+
+# Scratch diagnostics
+debugging/
